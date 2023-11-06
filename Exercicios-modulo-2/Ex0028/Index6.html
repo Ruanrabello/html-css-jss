@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercicios de TABELAS</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+
+        }
+
+        table {
+            width: 500px;
+            border-collapse: collapse;
+        }
+
+        caption {
+            font-size: 1.3em;
+            font-weight: bolder;
+            padding: 8px;
+        }
+
+
+        th, td {
+            border: 1px solid black;
+            padding: 8px;
+        }
+
+        tr.destaque {
+            background-color: blueviolet;
+        }
+
+        col.cnome {
+            background-color: brown;
+        }
+
+        col.csexo, col.cprof {
+            background-color: yellow;
+        }
+    </style>
+</head>
+<body>
+    <h1>Exercicios de TABELAS</h1>
+    <table>
+        <colgroup>
+            <col class="cnome">
+            <col class="csexo">
+            <col class="cidade">
+            <col class="cprof">
+        </colgroup>
+        <caption>
+            Cadastro
+            <tr>
+                <th scope="col">
+                    nome
+                </th>
+                <th scope="col">
+                    sexo
+                </th>
+                <th scope="col">
+                    idade
+                </th>
+                <th scope="col">
+                    profissao
+                </th>
+            </tr>
+            <tr>
+                <th>
+                    Ana maria
+                </th>
+                <th>
+                    feminino
+                </th>
+                <th>
+                    25
+                </th>
+                <th>
+                    Jornalista
+                </th>
+            </tr>
+            <tr class="destaque">
+                <th>
+                    Jorge
+                </th>
+                <th>
+                    masculino
+                </th>
+                <th>
+                    45
+                </th>
+                <th>
+                    Pedreiro
+                </th>
+            </tr>
+            <tr>
+                <th>
+                    Pietra
+                </th>
+                <th>
+                    feminino
+                </th>
+                <th>
+                    23
+                </th>
+                <th>
+                    Modelo
+                </th>
+            </tr>
+            <tr>
+                <th>
+                    Joao
+                </th>
+                <th>
+                    masculino
+                </th>
+                <th>
+                    18
+                </th>
+                <th>
+                    Jogador
+                </th>
+            </tr>
+            <tr>
+                <th>
+                    pedro
+                </th>
+                <th>
+                    masculino
+                </th>
+                <th>
+                    20
+                </th>
+                <th>
+                    UBER
+                </th>
+            </tr>
+        </caption>
+    </table>
+</body>
+</html>
